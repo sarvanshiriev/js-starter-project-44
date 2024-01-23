@@ -5,4 +5,4 @@
 
 ## Пример игры
 
-[![asciicast](https://asciinema.org/a/your-unique-id.svg)](https://asciinema.org/a/your-unique-id)
+[![asciicast](https://asciinema.org/a/your-unique-id.svg)](https://asciinema.org/a/Cj5uxglvJEi5VPxFTrFq1EB0C)
