@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import checkEven from '../src/games/checkEven.js';
+import calculator from '../src/games/calculator.js';
 import greetUser from '../src/cli.js';
 
 const playerName = greetUser();
-checkEven(playerName);
+calculator(playerName);

@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import getRandomInt from './random.js';
+import getRandomInt from '../random.js';
 
 export default function checkEven(name) {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
