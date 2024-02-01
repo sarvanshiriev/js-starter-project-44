@@ -1,3 +1,3 @@
-export default function playGame(name) { 
-  
+export default function playGame(name) {
+
 }
