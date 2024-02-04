@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import checkEven from '../src/games/checkEven.js';
+import getProgression from '../src/games/progression.js';
 import greetUser from '../src/cli.js';
 
 const playerName = greetUser();
-checkEven(playerName);
+getProgression(playerName);

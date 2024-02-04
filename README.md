@@ -9,3 +9,9 @@
 
 ## Пример игры с калькулятором
 [![asciicast](https://asciinema.org/a/5rVdam74Ls6E40EF9YtiT7SNB.svg)](https://asciinema.org/a/5rVdam74Ls6E40EF9YtiT7SNB)
+
+## Пример игры с НОД
+[![asciicast](https://asciinema.org/a/pmTP9WDrs7iBuxCqc0bHEPsPX.svg)](https://asciinema.org/a/pmTP9WDrs7iBuxCqc0bHEPsPX)
+
+## Пример игры с Прогрессией
+[![asciicast](https://asciinema.org/a/P9vJtbaA8hTwJDO0mRjcKn3Py.svg)](https://asciinema.org/a/P9vJtbaA8hTwJDO0mRjcKn3Py)

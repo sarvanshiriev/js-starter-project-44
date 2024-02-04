@@ -12,7 +12,7 @@ export default function gcd(name) {
     console.log(`Question: ${randomNumberOne} ${randomNumberTwo}`);
     const correctAnswer = getGcd(randomNumberOne, randomNumberTwo);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer === correctAnswer) {
+    if (userAnswer == correctAnswer) {
       console.log('Correct!');
       correctAnswersCount += 1;
     } else {

@@ -20,7 +20,7 @@ export default function calculator(name) {
       console.log(`Question: ${randomNumberOne}${randomOperation}${randomNumberTwo}\n
       Your answer: ${userAnswer}\n
       '${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'
-    Let's try again!`);
+    Let's try again,${name}!`);
       return;
     }
   }

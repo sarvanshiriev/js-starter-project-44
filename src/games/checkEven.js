@@ -14,7 +14,7 @@ export default function checkEven(name) {
       correctAnswersCount += 1;
     } else {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.
-    Let's try again!`);
+    Let's try again,${name}!`);
       return;
     }
   }
