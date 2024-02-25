@@ -2,6 +2,7 @@ import getRandomInt from './random.js';
 
 export default function generateProgression(length, start, diff) {
   const progression = [];
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < length; i++) {
     progression.push(start + i * diff);
   }

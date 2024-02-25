@@ -12,6 +12,7 @@ export default function gcd(name) {
     console.log(`Question: ${randomNumberOne} ${randomNumberTwo}`);
     const correctAnswer = getGcd(randomNumberOne, randomNumberTwo);
     const userAnswer = readlineSync.question('Your answer: ');
+    // eslint-disable-next-line eqeqeq
     if (userAnswer == correctAnswer) {
       console.log('Correct!');
       correctAnswersCount += 1;

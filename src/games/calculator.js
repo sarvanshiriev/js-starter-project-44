@@ -11,8 +11,10 @@ export default function calculator(name) {
     const randomOperation = randomItem();
     console.log(`Question: ${randomNumberOne} ${randomOperation} ${randomNumberTwo}`);
     const expression = `${randomNumberOne} ${randomOperation} ${randomNumberTwo}`;
+    // eslint-disable-next-line no-eval
     const correctAnswer = eval(expression);
     const userAnswer = readlineSync.question('Your answer: ');
+    // eslint-disable-next-line eqeqeq
     if (userAnswer == correctAnswer) {
       console.log('Correct!');
       correctAnswersCount += 1;

@@ -13,6 +13,7 @@ export default function getProgression(name) {
 
     console.log(`Question: ${progression.join(' ')}`);
     const userAnswer = readlineSync.question('Your answer: ');
+    // eslint-disable-next-line eqeqeq
     if (userAnswer == hiddenValue) {
       console.log('Correct!');
       correctAnswersCount += 1;

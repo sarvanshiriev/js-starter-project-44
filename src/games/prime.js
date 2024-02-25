@@ -10,6 +10,7 @@ export default function getPrime(name) {
     const correctAnswer = isPrime(randomNumber);
     console.log(`Question: ${randomNumber}`);
     const userAnswer = readlineSync.question('Your answer: ');
+    // eslint-disable-next-line eqeqeq
     if (userAnswer == correctAnswer) {
       console.log('Correct!');
       correctAnswersCount += 1;
