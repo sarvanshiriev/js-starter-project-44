@@ -15,3 +15,6 @@
 
 ## Пример игры с Прогрессией
 [![asciicast](https://asciinema.org/a/P9vJtbaA8hTwJDO0mRjcKn3Py.svg)](https://asciinema.org/a/P9vJtbaA8hTwJDO0mRjcKn3Py)
+
+## Пример игры с простым числом
+[![asciicast](https://asciinema.org/a/0GZrHRjYSq1zeTAFJ9sUJDVuY.svg)](https://asciinema.org/a/0GZrHRjYSq1zeTAFJ9sUJDVuY)
