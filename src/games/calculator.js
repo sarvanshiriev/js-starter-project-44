@@ -9,7 +9,7 @@ export default function calculator(name) {
     const randomNumberOne = getRandomInt(0, 100);
     const randomNumberTwo = getRandomInt(0, 100);
     const randomOperation = randomItem();
-    console.log(`Question: ${randomNumberOne}${randomOperation}${randomNumberTwo}`);
+    console.log(`Question: ${randomNumberOne} ${randomOperation} ${randomNumberTwo}`);
     const expression = `${randomNumberOne} ${randomOperation} ${randomNumberTwo}`;
     const correctAnswer = eval(expression);
     const userAnswer = readlineSync.question('Your answer: ');
