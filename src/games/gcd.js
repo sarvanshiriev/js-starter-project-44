@@ -19,7 +19,7 @@ export default function gcd(name) {
       console.log(`Question: ${randomNumberOne} ${randomNumberTwo}\n
       Your answer: ${userAnswer}\n
       '${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\n
-    Let's try again,${name}!`);
+    Let's try again, ${name}!`);
       return;
     }
   }

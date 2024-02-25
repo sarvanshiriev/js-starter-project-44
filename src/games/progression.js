@@ -20,7 +20,7 @@ export default function getProgression(name) {
       console.log(`Question: ${progression.join(' ')}\n
       Your answer: ${userAnswer}\n
       '${userAnswer}' is wrong answer ;(. Correct answer was '${hiddenValue}'
-    Let's try again,${name}!`);
+    Let's try again, ${name}!`);
       return;
     }
   }

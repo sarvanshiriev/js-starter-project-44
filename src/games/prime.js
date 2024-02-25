@@ -17,7 +17,7 @@ export default function getPrime(name) {
       console.log(`Question: ${randomNumber}\n
       Your answer: ${userAnswer}\n
       '${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'
-    Let's try again,${name}!`);
+    Let's try again, ${name}!`);
       return;
     }
   }
