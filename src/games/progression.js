@@ -24,5 +24,5 @@ export default function getProgression(name) {
       return;
     }
   }
-  console.log(`Congratulations, ${name}`);
+  console.log(`Congratulations, ${name}!`);
 }

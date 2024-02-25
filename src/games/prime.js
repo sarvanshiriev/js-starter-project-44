@@ -21,5 +21,5 @@ export default function getPrime(name) {
       return;
     }
   }
-  console.log(`Congratulations, ${name}`);
+  console.log(`Congratulations, ${name}!`);
 }
